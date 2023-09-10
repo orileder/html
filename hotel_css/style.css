@@ -13,6 +13,7 @@ a {
 }
 h1,h2,h3 {
     padding-bottom: 20px;
+    padding-left: 20px;
 }
 p {
     margin: 10px 0px;
@@ -40,4 +41,9 @@ p {
     display: block;
     padding: 20px;
     text-align: center;
+}
+#navbar ul li a:hover
+#navbar ul li a.current {
+    background: #444;
+    color: #f7c0fa;
 }

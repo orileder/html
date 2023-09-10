@@ -1,0 +1,19 @@
+*, html, body {
+    box-sizing: border-box;
+}
+.textbox {
+    background-color: burlywood; 
+    border: 1px solid black;   
+    text-align: center;
+    margin: 20px;
+    height: 200px;
+    width: 250px;
+}
+#container {
+    display: flex;
+}
+@media(max-width: 1100px) {
+    #container {
+        flex-direction: column;
+    }
+}

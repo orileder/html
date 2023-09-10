@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+.container {
+    margin: 0px auto;
+}
+#fbcont {
+    box-shadow: 5px 5px 15px 2px black;
+    float:left
+}
+#guitarcont {
+    box-shadow: 5px 5px 15px 2px black;
+    float: right;
+}
+#combcontainer{
+    height: 100px;
+    width: 120px;
+    margin: 0px auto;
+}
