@@ -17,7 +17,7 @@ a[data-tooltip]::after {
     visibility: hidden; 
     bottom: 100%; 
     left: 40%;
-   white-space: nowrap;
+    white-space: nowrap;
 }
 
 a[data-tooltip]:hover::after {

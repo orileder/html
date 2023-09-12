@@ -1,0 +1,36 @@
+
+body {
+    margin: 0 !important;
+}
+
+#mainheader, #profilepic, #paragraph, .content, h5 {
+    margin: 0 auto;
+}
+
+
+@media (max-width: 500px) {
+    #mainheader {
+        text-align: center;
+        font-size: smaller;
+    }
+
+    #pp {
+        margin: 0 auto;
+    }
+
+    #profilepic {
+        padding-left: 0;
+    }
+
+    #navbar {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+:root {
+    --primary-color: gray;
+    --secondary-color: darkblue;
+}
